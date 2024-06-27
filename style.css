@@ -352,7 +352,6 @@
             justify-content: center;
             flex-wrap: wrap;
             grid-template-columns: 1fr 1fr;
-
             border-top: 1px dashed var(--color-border);
             padding-top: var(--spacing);
 
@@ -367,7 +366,7 @@
 
         nav#menu-icons ul li a,
         li#toggle-it {
-            cursor: pointer;
+            cursor: pointer; 
             display: flex;
             padding: 6px;
             border: 1px dashed var(--color-border);
@@ -379,6 +378,7 @@
             height: 18px;
             stroke: var(--color-text);
             stroke-width: 1.7;
+          
         }
 
         nav#menu-icons ul li:hover svg {
@@ -390,7 +390,7 @@
         }
 
         span.toggle-icon.switch {
-            display: none;
+            display: none; 
         }
 
         .sidebar-left nav#menu,
@@ -409,7 +409,7 @@
             gap: 9px;
             padding: 0;
             justify-content: center;
-            flex-wrap: wrap;
+            flex-wrap: wrap; 
         }
 
         nav#menu ul li {}
@@ -417,7 +417,7 @@
         nav#menu ul li a {
             display: flex;
             align-items: center;
-            gap: 5px;
+            gap: 5px; 
         }
 
         .sidebar-left nav#menu ul li a::before,
@@ -425,7 +425,7 @@
             content: '';
             background-color: var(--color-accent-1);
             height: 1px;
-            width: 10px;
+            width: 10px; 
         }
 
        
